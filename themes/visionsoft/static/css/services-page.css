@@ -1,0 +1,74 @@
+.services-page-div {
+    border-right: 1px solid grey;
+   
+}
+
+@media (max-width: 767px) {
+    .services-page-div {
+        border-right: none;
+        text-align: center;
+    }
+
+    .services-page-div-end {
+        text-align: center;
+    }
+}
+
+.services-page-div-icons {
+    background-color: #003354;
+    border-radius: 50%;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .services-page-img-div {
+        display: none;
+    }
+}
+
+.services-page-mid-banner-content {
+    background-image: url(/imgs/our-services-mid-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* z-index: -1; */
+    height: 30rem;
+    /* background-color: #003354; */
+    color: #fff;
+}
+
+.services-page-best-services-heading {
+    width: 60%;
+}
+
+.services-page-best-services-content {
+    width: 60%;
+}
+
+.services-page-heading {
+    width: 75%;
+}
+
+@media (max-width: 991px) {
+    .services-page-heading {
+        width: 100%;
+    }
+
+    .services-page-best-services-heading {
+        width: 100%;
+    }
+
+    .services-page-best-services-content {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .services-page-mid-banner-content {
+        background-image: none;
+        background-color: #003354;
+        height: 20%;
+        padding: 2rem;
+    }
+
+
+}

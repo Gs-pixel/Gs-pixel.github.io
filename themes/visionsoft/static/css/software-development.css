@@ -1,0 +1,54 @@
+.top-card {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.career-form {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.upload-container {
+    text-align: center;
+    border: 2px dashed #c2c2c2;
+    padding: 40px;
+    background-color: white;
+    height: 15.5rem;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+}
+
+.upload-container.dragover {
+    border-color: #1e90ff;
+}
+
+.upload-icon {
+    font-size: 50px;
+    color: #1e90ff;
+}
+
+.upload-text {
+    margin: 15px 0;
+    color: #666;
+    font-size: 18px;
+}
+
+.upload-link {
+    color: #1e90ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.upload-link:hover {
+    text-decoration: underline;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-list {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}

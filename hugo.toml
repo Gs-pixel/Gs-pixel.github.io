@@ -1,0 +1,40 @@
+baseURL = 'https://gs-pixel.github.io/'
+languageCode = 'en-us'
+title = 'Vision Soft'
+theme = 'visionsoft'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+
+  [[menu.main]]
+    name = 'About Us'
+    url = '/about-us'
+    weight = 20
+
+  [[menu.main]]
+    name = 'Career'
+    url = '/career'
+    weight = 30
+
+  [[menu.main]] 
+    name = 'Software Development'
+    url = '/career/software-development'
+    weight = 31
+
+  [[menu.main]]
+    name = 'Our Services'
+    url = '/our-services'
+    weight = 40
+
+ [[menu.main]]
+   name = 'Oracle Cloud'
+   url = '/our-services/oracle-cloud'
+   weight = '41'
+
+  [[menu.main]]
+    name = 'Contact Us'
+    url = '/contact-us'
+    weight = 50

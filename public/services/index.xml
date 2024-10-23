@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Vision Soft</title>
+    <link>http://localhost:1313/services/</link>
+    <description>Recent content in Services on Vision Soft</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Oct 2024 09:53:54 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Infrastructure</title>
+      <link>http://localhost:1313/%23/</link>
+      <pubDate>Tue, 08 Oct 2024 09:53:54 +0530</pubDate>
+      <guid>http://localhost:1313/%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise Mobility</title>
+      <link>http://localhost:1313/%23/</link>
+      <pubDate>Tue, 08 Oct 2024 09:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business Analytics</title>
+      <link>http://localhost:1313/%23/</link>
+      <pubDate>Tue, 08 Oct 2024 09:53:06 +0530</pubDate>
+      <guid>http://localhost:1313/%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sap Development</title>
+      <link>http://localhost:1313/%23/</link>
+      <pubDate>Tue, 08 Oct 2024 09:52:33 +0530</pubDate>
+      <guid>http://localhost:1313/%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>It Staff Augmentation</title>
+      <link>http://localhost:1313/%23/</link>
+      <pubDate>Tue, 08 Oct 2024 09:52:14 +0530</pubDate>
+      <guid>http://localhost:1313/%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle Cloud</title>
+      <link>http://localhost:1313/oracle-cloud/</link>
+      <pubDate>Tue, 08 Oct 2024 09:49:46 +0530</pubDate>
+      <guid>http://localhost:1313/oracle-cloud/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

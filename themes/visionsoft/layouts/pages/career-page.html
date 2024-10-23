@@ -1,0 +1,54 @@
+{{define "main"}}
+<!-- Breadcrumb Section -->
+<section>
+    <div class="">
+        <div class="breadcrumb-div">
+            <div class="breadcrumb-internal-div">
+                <p class="fs-2">CONTACT</p>
+            <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb" class="bread-div-nav">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/" class="breadcrumb-a-tag">HOME</a></li>
+                  <li class="breadcrumb-item" aria-current="page" class="breadcrumb-non-a-tag">CAREERS</li>
+                </ol>
+              </nav>
+            </div>
+            
+        </div>
+    
+    </div> 
+</section>
+
+<!-- Content Section -->
+<section class="main-content pt-5 text-start">
+    <div class="container pb-5">
+        <div class="row pb-3">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <p class="fw-normal display-4 career-page-heading">Currently Open Positions.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 pt-lg-2">
+                <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloribus quos libero placeat voluptas autem repudiandae eaque ipsum pariatur, laboriosam repellendus temporibus minus, ipsa voluptatibus provident, dolore odit dolorum perspiciatis?</p>
+            </div>
+        </div>
+        <div class="row py-5 g-4">
+            {{ range ( where .Site.RegularPages.ByDate "Type" "openings" ) }}
+            <div class="col-lg-6 col-md-12 col-sm-12 text-start">
+                <div class="p-3 career-page-openings-div mb-4">
+                    <a href="/career/{{ .Params.URL }}" style="text-decoration: none; color: #000;"><p class="fw-semibold fs-3">{{ .Title }}</p></a>
+                    <div class="d-flex pt-3">
+                        <p class="career-page-openings-tablet py-1 px-2 me-4 fs-6">{{ .Params.category }}</p>
+                        <p class="career-page-openings-tablet py-1 px-2 me-4 fs-6">{{ .Params.location }}</p>
+                        <p class="career-page-openings-tablet py-1 px-2 fs-6">{{ .Params.position }}</p>
+                    </div>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit molestiae labore odio eligendi iusto quos numquam consequuntur doloribus consequatur ipsum, dolor beatae officia minus unde fuga necessitatibus dolorem delectus praesentium.</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+{{end}}

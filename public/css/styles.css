@@ -1,0 +1,122 @@
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+/* ------------------------------ Header Start ------------------------------ */
+nav {
+    background-color: #fff;
+}
+
+.header-icon {
+    background-color: #2b3467;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+.contact-btn-link {
+    color: #000;
+}
+/* ------------------------------ Header End ------------------------------ */
+
+
+
+/* ------------------------------ Breadcrumb Start ------------------------------ */
+.breadcrumb-div {
+    background-image: url(/imgs/newBreadcrumbImg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    overflow: hidden;
+    color: #fff;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-internal-div {
+    padding: 4rem;
+}
+
+.bread-div-nav {
+    background: none;
+}
+
+.breadcrumb-a-tag {
+    text-decoration: none;
+    color: #fff;
+}
+/* ------------------------------ Breadcrumb End ------------------------------ */
+
+
+
+/* ------------------------------ FOOTER STARTS HERE ------------------------------ */
+/* .footer-banner-text {
+    font-size: 3.5rem;
+} */
+
+h4 {
+    color: #C61B22;
+}
+
+.footer-ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #002843;
+}
+
+.footer-call {
+    background-color: #003354;
+    color: #fff;
+    border-radius: 12px;
+    padding: 40px 20px;
+}
+
+.call-img {
+    background-color: #011C2F;
+    border-radius: 2px;
+    width: 59px;
+    height: 59px;
+}
+
+.address-icons {
+    background-color: grey;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.foot-icons {
+    background-color: #011C2F;
+    margin: 2px;
+    border-radius: 2px;
+}
+/* ------------------------------ Footer End ------------------------------ */
+
+@media (max-width: 991px) {
+    .breadcrumb-div {
+        height: 18rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .foot-copyright {
+        text-align: center;
+    }
+    .foot-follow-us {
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+    .breadcrumb-internal-div {
+        padding: 2rem;
+    }
+}
+

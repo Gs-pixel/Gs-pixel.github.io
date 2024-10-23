@@ -1,0 +1,108 @@
+.about-page-best-solutions-img {
+    width: 100%;
+}
+
+.about-page-members-card-grey-rectangle-div {
+    height: 20.3rem;
+    width: 17.2rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    z-index: 0;
+}
+
+.about-page-members-placeholder-img-div {
+    top: 1.4rem;
+    left: 2.25rem;
+    background-color: #fff;
+}
+
+.about-page-client-say {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.about-page-clients-gold-img {
+    top: 0;
+}
+.about-page-clients-silver-img {
+    top: 5.25rem;
+}
+
+.about-page-clients-red-img {
+    top: 11.1rem;
+}
+
+.about-page-clients-imgs {
+    top: 8rem;
+    z-index: -1;
+}
+
+@media (max-width: 1199px) {
+    .about-page-best-solutions-img {
+        padding-top: 3.5rem;
+    }
+
+}
+
+/* @media (max-width: 1199px) and (min-width: 992px) {
+    .about-page-members-card-2 , .about-page-members-card-3 {
+        margin-left: 7rem;
+    }
+} */
+
+@media (max-width: 991px) {
+    .about-page-best-solutions-img {
+        display: none;
+    }
+
+    .about-page-best-solutions-main-div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/imgs/about-section-solution-img.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        color: #fff;
+        overflow: hidden;
+    }
+
+    .about-page-clients-imgs {
+        top: 14rem;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .about-page-members-card-grey-rectangle-img{
+        height: 6rem;
+    }
+
+    .about-page-members-card-grey-rectangle-div {
+        height: 15.3rem;
+        width: 13.2rem;
+    }
+
+    .about-page-members-placeholder-img {
+        width: 12.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-page-members-carousel {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-page-clients-imgs {
+        top: 20rem;
+    }
+    .about-page-main-content {
+        text-align: start;
+    }
+    .about-page-members-card-grey-rectangle-div {
+        height: 18rem;
+        width: 15rem;
+    }
+    .about-page-members-placeholder-img {
+        border: 2px solid red;
+    }
+}

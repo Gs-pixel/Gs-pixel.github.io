@@ -1,0 +1,226 @@
+.index-main-paragraph {
+    width: 75%;
+}
+
+.top-1st-img {
+    top: 6rem;
+    right: 0;
+}
+
+.top-2nd-img {
+    top: 20rem;
+    right: 20rem;
+}
+
+.top-red-img {
+    right: 0;
+}
+
+.top-silver-img {
+    right: 8rem;
+    top: 0;
+}
+
+.top-gold-img {
+    right: 16.75rem;
+    top: 10rem;
+}
+
+.index-2nd-work-img-1 {
+    width: 70%;
+}
+
+.index-2nd-work-img-2 {
+    bottom: -3rem;
+    right: 2rem;
+    width: 65%;
+    
+}
+
+.index-support-line-height {
+    line-height: 2rem;
+}
+
+.index-support-lg-show-div {
+    display: flex;
+}
+
+.index-support-md-show-div {
+    display: none;
+}
+
+.oracle-cloud-card {
+    background-color: #FFE9DCAD;
+}
+
+.enterprise-mobility-card {
+    background-color: #FFCFCFAD;
+}
+
+.business-analytics-card {
+    background-color: #FFEDD3AD;
+}
+
+.index-service-card-heading {
+    color: #003354;
+}
+
+.index-services-imgs-div {
+    top: 4rem;
+    right: -2rem;
+}
+
+.index-services-top-rectangle {
+    top: -1rem;
+    left: -0.25rem;
+}
+.index-services-bottom-rectangle {
+    top: 38.75rem;
+    left: 33.9rem;
+}
+
+/* .index-services-main-img {
+    width: 35rem;
+} */
+
+.index-products-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/imgs/index-products-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    height: auto;
+    color: #fff;
+    overflow: hidden;
+}
+
+.index-hr {
+    width: 15%;
+    height: 10px;
+    border-top: 4px solid #DD5F60;
+}
+
+.index-product-card-odd, .index-product-card-even {
+    border-right: 1px solid black;
+}
+
+
+
+/* ---------------------------- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .top-1st-img {
+        width: 16rem;
+        top: 10rem;
+    }
+    .top-2nd-img {
+        width: 15rem;
+        right: 8rem;
+        top: 18rem;
+    }
+    .top-red-img {
+        width: 15rem;
+        right: -1rem;
+        top: 7rem;
+    }
+    .top-silver-img {
+        width: 19rem;
+        right: 3rem;
+        top: 6rem;
+    }
+    .top-gold-img {
+        width: 15rem;
+        top: 13rem;
+        right: 8.6rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .top-1st-img {
+        width: 23rem;
+        top: 9rem;
+    }
+    .top-2nd-img {
+        width: 18rem;
+        right: 12rem;
+        top: 19rem;
+    }
+    .top-red-img {
+        width: 20rem;
+        top: 4rem;
+        right: 0rem;
+    }
+    .top-silver-img {
+        width: 24rem;
+        right: 5rem;
+        top: 4rem;
+    }
+    .top-gold-img {
+        width: 20rem;
+        right: 12rem;
+        top: 12rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .index-top-imgs-div {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .index-services-top-rectangle {
+        top: 11rem;
+    }
+    .index-services-bottom-rectangle {
+        top: 33rem;
+        left: 18.5rem;
+    }
+    .index-services-main-img {
+        width: 25rem;
+        top: 12rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .index-services-main-div {
+        padding: 0 0rem;
+        text-align: start;
+    }
+    .index-services-imgs-div {
+        display: none;
+    }
+    .index-tech-support-main-div {
+        padding: 0 3rem;
+    }
+    .index-2nd-work-img-1{
+        width: 60%;
+    }
+    .index-2nd-work-img-2{
+        width: 60%;
+        left: 8rem;
+    }
+    .index-support-line-height {
+        line-height: 1.75rem;
+        padding-top: 3rem;
+    }
+    .index-support-lg-show-div {
+        display: none;
+    }
+    .index-support-md-show-div {
+        display: block;
+    }
+    .index-product-card-even {
+        border-right: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .index-product-card-odd {
+        border-right: none ;
+    }
+    .index-main-paragraph {
+        width: 100%;
+    }
+}

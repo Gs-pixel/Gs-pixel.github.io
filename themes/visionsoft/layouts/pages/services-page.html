@@ -1,0 +1,123 @@
+{{define "main"}}
+<!-- Breadcrumb Section -->
+<section>
+    <div class="">
+        <div class="breadcrumb-div">
+            <div class="breadcrumb-internal-div">
+                <p class="fs-2">CONTACT</p>
+            <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb" class="bread-div-nav">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/" class="breadcrumb-a-tag">HOME</a></li>
+                  <li class="breadcrumb-item" aria-current="page" class="breadcrumb-non-a-tag">SERVICES</li>
+                </ol>
+              </nav>
+            </div>
+            
+        </div>
+    
+    </div> 
+</section>
+
+<!-- Content Section -->
+ <section class="main-content pt-5">
+    <div class="container pb-5 text-start">
+        <div class="row pb-4 pt-5">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <p class="services-page-heading display-4 fw-medium">Most Experienced Our Services.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quae ratione corrupti provident ipsa! Sequi sunt dolore velit. Illum expedita sit fugiat reprehenderit ipsa quidem quod voluptatibus fuga labore amet?</p>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row pt-4">
+            <div class="col-lg-4 col-md-4 col-sm-12 services-page-div p-3 d-flex justify-content-center">
+                <div>
+                    <div>
+                        <i class="fa-solid fa-gear fa-2x p-3 services-page-div-icons"></i>
+                    </div>
+                    <div>
+                        <p class="py-3 fs-5 fw-medium">Innovative and Technology Driven</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 services-page-div p-3 d-flex justify-content-center">
+                <div>
+                    <div>
+                        <i class="fa-regular fa-user fa-2x p-3 services-page-div-icons"></i>
+                    </div>
+                    <div>
+                        <p class="py-3 fs-5 fw-medium">Personalisation and Customer</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 services-page-div-end p-3 d-flex justify-content-center">
+                <div>
+                    <div>
+                        <i class="fa-solid fa-shield-halved fa-2x p-3 services-page-div-icons"></i>
+                    </div>
+                    <div>
+                        <p class="py-3 fs-5 fw-medium">Security and Privacy</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="container-fluid p-0 overflow-x-hidden pt-5 text-start">
+        <div class="row position-relative">
+            <div class="col-lg-12 end-0 services-page-mid-banner-content d-flex justify-content-end">
+                <div class="col-lg-6 col-md-12 col-sm-12 py-5 px-5 align-self-center">
+                    <p class="fw-semibold fs-1">Join Our Visionary Team and Drive The Future of Fintech Innovation!</p>
+                <p class="fw-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore architecto officiis provident temporibus animi vel ipsa! Fugit tempora distinctio commodi quidem perspiciatis quas suscipit voluptas asperiores obcaecati veritatis? Cumque, dolorum!</p>
+                <form action="/contact-us">
+                    <button class="btn btn-danger shadow">CONTACT</button>
+                </form>
+                
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="container py-5 text-start">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <p class="display-4 fw-medium mb-md-0 services-page-best-services-heading">We Provide The Best Services For You.</p>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 d-lg-flex flex-row-reverse ">
+                <p class="services-page-best-services-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda inventore esse qui quam tempora officia mollitia ipsam voluptatem atque aperiam aliquid labore consequuntur omnis, rem dolor, minus, in perferendis. Beatae.
+                Ipsum cupiditate temporibus sit possimus, dolore ducimus excepturi. Maxime quas earum non ipsam. Corrupti iste illum doloribus tempore, debitis qui quas accusantium ut dolor ad, molestias reiciendis corporis excepturi quos.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-start">
+        <div class="row mt-5">
+            <div class="col">
+                <p class="display-3 fw-medium " style="color: #003354;">OUR SERVICES</p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            
+                {{ range (where .Site.RegularPages.ByDate "Type" "services")}}
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-5 my-3">
+                    <hr>
+                    <a href="/our-services/{{ .Params.URL }}" style="text-decoration: none;"><p class="fw-medium fs-2" style="color: #003354;">{{ .Title }}</p></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium est eveniet qui quidem eligendi. Odio corrupti quisquam ducimus magnam illum nesciunt placeat, ut quae vitae, dolorem, consequatur qui veniam labore.</p>
+                    <img src="/imgs/{{ .Params.imagePic }}" alt="" class="w-100">
+                </div>
+                {{ end }}
+
+            
+        </div>
+    </div>
+ </section>
+{{end}}

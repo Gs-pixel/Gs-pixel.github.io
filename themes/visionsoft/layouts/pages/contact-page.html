@@ -1,0 +1,101 @@
+{{define "main"}}
+<!-- Breadcrumb Section-->
+<section>
+    <div class="">
+        <div class="breadcrumb-div">
+            <div class="breadcrumb-internal-div">
+                <p class="fs-2">CONTACT</p>
+            <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb" class="bread-div-nav">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/" class="breadcrumb-a-tag">HOME</a></li>
+                  <li class="breadcrumb-item" aria-current="page" class="breadcrumb-non-a-tag">CONTACT</li>
+                </ol>
+              </nav>
+            </div>
+            
+        </div>
+    
+    </div>  
+</section>
+<!-- Content Section -->
+ <section class="main-content pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <p class="display-4 fw-medium">Let's build an awesome Project together</p>
+                <p class="pt-3 lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam numquam commodi, vitae expedita placeat sint amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corrupti culpa.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-md-3">
+                <div class="d-flex justify-content-lg-end justify-content-md-center mt-3 contact-page-top-icons-div">
+                    <div class="me-4"><i class="fa-brands fa-facebook p-2 contact-page-top-icons fa-2x"></i></div>
+                    <div class="me-4"><i class="fa-brands fa-x-twitter p-2 contact-page-top-icons fa-2x"></i></div>
+                    <div class="me-4"><i class="fa-brands fa-linkedin-in p-2 contact-page-top-icons fa-2x"></i></div>
+                    <div class="me-4"><i class="fa-brands fa-google-plus-g p-2 contact-page-top-icons fa-2x"></i></div>
+                    <div class=""><i class="fa-brands fa-youtube p-2 contact-page-top-icons fa-2x"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="row py-4 mt-5">
+            <div class="col-lg-12 col-md-12">
+                <!-- location map -->
+                 <img src="/imgs/visionsoft-location.png" alt="visionsoft_location" class="w-100 rounded-1">
+            </div>
+        </div>
+        <div class="row pt-5 pb-5 mt-3">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="d-flex py-4">
+                    <div class="p-3 contact-page-form-icons">
+                        <img src="/imgs/icons/location_icon.svg" alt="location_icon">
+                    </div>
+                    <div class="ps-4 align-self-center">
+                        <p class="mb-0 fw-medium fs-5">1842 Old Norcross Road<br> Lawrenceville, GA 30044</p>
+                    </div>
+                    
+                </div>
+                <div class="d-flex py-4">
+                    <div class="p-3 contact-page-form-icons">
+                        <img src="/imgs/icons/phone_icon.svg" alt="phone_icon">
+                    </div>
+                    <div class="ps-4 align-self-center">
+                        <p class="mb-0 fw-medium fs-5">+998 999 0000</p>
+                        <p class="mb-0 fw-medium fs-5">+998 999 0000</p>
+                    </div>
+                    
+                </div>
+                <div class="d-flex py-4">
+                    <div class="p-3 contact-page-form-icons">
+                        <img src="/imgs/icons/mail_icon.svg" alt="mail_icon">
+                    </div>
+                    <div class="ps-4 align-self-center">
+                        <p class="mb-0 fw-medium fs-5">info@vsiiusa.com</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <form action="#">
+                    <div class="d-lg-flex">
+                        <div class="col-lg-6 col-md-12 mb-3 pb-2 pe-lg-2">
+                            <input type="text" class="form-control py-2" id="inputName" placeholder="Enter Your Name" required>
+                          </div>
+                          <div class="col-lg-6 col-md-12 mb-3 pb-2 ps-lg-2">
+                            <input type="email" class="form-control py-2" id="inputEmail" placeholder="Enter Your Email" required>
+                          </div>
+                    </div>
+                    
+                    <div class="mb-3 pb-2">
+                        <input type="text" class="form-control py-2" id="inputSubject" placeholder="Enter Subject" required>
+                    </div>
+                    <div class="mb-3 pb-2">
+                        <textarea class="form-control py-2" id="inputText" rows="10" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end pt-3 pb-5">
+                        <button type="submit" class="btn btn-danger py-2 shadow">SEND MESSAGE</button>
+                    </div>
+                    
+                  </form>
+            </div>
+        </div>
+    </div>
+ </section>
+{{end}}

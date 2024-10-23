@@ -1,0 +1,19 @@
+.career-page-openings-div {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.career-page-openings-tablet {
+    border: 1px solid black;
+    border-radius: 24px;
+}
+
+.career-page-heading {
+    width: 75%;
+}
+
+@media (max-width: 991px) {
+    .career-page-heading {
+        width: 100%;
+    }
+}

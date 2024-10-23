@@ -1,0 +1,25 @@
+.oracle-cloud-heading {
+    width: 75%;
+}
+
+.our-approach-img {
+    width: 100%;
+}
+
+.main-box {
+    background-color: #FFEEE4;
+}
+
+.sub-box {
+    background-color: #FFF5E6;
+}
+
+@media(max-width: 991px) {
+    .oracle-cloud-heading {
+        width: 100%;
+    }
+    .our-approach-img {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+}

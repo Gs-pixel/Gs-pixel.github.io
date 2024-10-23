@@ -1,0 +1,135 @@
+{{ define "main" }}
+<!-- Breadcrumb Section -->
+<section>
+    <div class="">
+        <div class="breadcrumb-div">
+            <div class="breadcrumb-internal-div">
+                <p class="fs-2 breadcrumb-heading">CONTACT</p>
+            <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb" class="bread-div-nav">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/" class="breadcrumb-a-tag">HOME</a></li>
+                  <li class="breadcrumb-item"><a href="/career" class="breadcrumb-a-tag">CAREERS</a></li>
+                  <li class="breadcrumb-item" aria-current="page" class="breadcrumb-non-a-tag">SOFTWARE DEVELOPMENT</li>
+                </ol>
+              </nav>
+            </div>
+            
+        </div>
+    
+    </div> 
+</section>
+
+<!-- Content Section -->
+ <section class="main-content pt-5 text-start">
+    <div class="container pt-3">
+        <div class="row mb-3">
+            <div class="col-lg-12 col-md-12 col-sm-12 mb-4 top-card">
+                <div class="p-3">
+                    <p class="fs-1 fw-semibold text-danger">Software Development</p>
+                    <div class="d-flex pt-3">
+                        <p class="career-page-openings-tablet py-1 px-2 me-4 fs-6">ENGINEERING</p>
+                        <p class="career-page-openings-tablet py-1 px-2 me-4 fs-6">LONDON, UK</p>
+                        <p class="career-page-openings-tablet py-1 px-2 fs-6">FULL TIME</p>
+                    </div>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit molestiae labore odio eligendi iusto quos numquam consequuntur doloribus consequatur ipsum, dolor beatae officia minus unde fuga necessitatibus dolorem delectus praesentium.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <p class="fw-semibold fs-3">Job Description</p>
+            <p class="lh-lg">Provides application software development services or technical support typically in a defined project. Developes program logic for 
+                new applications or analyzes and modifies logic in existing applications. Codes, tests, debugs, documents, implements and
+                maintaines software applications. Analyzes requirements and maintains tests and intergrates application components. ENsures that
+                system improvements are successfully implemented. Use the following skills and technologies to perform the above duties:
+                Salesforce.com platform, Apex Language, Visual Force (Pages, Component & Controllers), Data Loader, HTML, JavaScript, Workflow
+                & Approvals, Reports, Custom Objects, Custom Tabs, Email Services, Security Controls, Sandbox data loading, Exlipse IDE Plug-in. 
+                Relocation and travel to various unanticipated locations within USA possilbe. Employer will accept suitable combination of
+                education, training or experience.
+            </p>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 pt-3">
+                <p class="fw-semibold fs-3">Rules and Responsibilites</p>
+                <p>
+                    <ul class="lh-lg">
+                        <li>Provides application software development services or technical support typical in a defines project. Developes
+                            program logic for new appliations or analyzes and modifies logic in existing applications.
+                        </li>
+                        <li>Provides application software development services or technical support typical in a defines project. Developes
+                            program logic for new appliations or analyzes and modifies logic in existing applications.
+                        </li>
+                        <li>Provides application software development services or technical support typical in a defines project. Developes
+                            program logic for new appliations or analyzes and modifies logic in existing applications.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 pt-3">
+                <p class="fw-semibold fs-3">Eligibility</p>
+                <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic aperiam id obcaecati culpa odio possimus explicabo repellendus. Soluta inventore, itaque ad alias dolores in dolorum repudiandae dicta facilis nulla?
+                Accusantium dolores tempora eveniet ullam totam quos autem adipisci possimus dignissimos corrupti in quidem sit quo nulla placeat eligendi porro impedit blanditiis expedita, ipsa itaque iste quaerat suscipit? Error, eveniet.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum magni, voluptas ipsam neque dolorum omnis quod libero provident quo maiores laudantium impedit distinctio culpa iusto blanditiis. Harum sapiente at natus.</p>
+            </div>
+            
+        </div>
+        <div class="career-form mb-5">
+            <div>
+                <form action="">
+                    <div class="row p-5">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="col-12">
+                                <div class="mb-4">
+                                    <input type="text" class="form-control py-2" id="soft-dev-name" placeholder="Name">
+                                  </div>
+                                <div class="mb-4">
+                                    <input type="email" class="form-control py-2" id="soft-dev-email" placeholder="Email">
+                                  </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" id="soft-dev-description" rows="10" placeholder="Description"></textarea>
+                                  </div>
+                            </div>
+                              
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="col-12 text-center">
+                                <img src="/imgs/form-logo.png" alt="" style="width: 26%;">
+                            </div>
+                            <div class="col-12">
+                                <div class="text-center">
+                                    <div class="upload-container" id="upload-container">
+                                        <div class="upload-icon">📄</div>
+                                        <div class="upload-text">
+                                            <label for="file-upload" class="upload-link">Click to upload</label>
+                                            or drag and drop
+                                        </div>
+                                        <div class="upload-instructions">
+                                            your resume here or click to select a file (doc or pdf)
+                                        </div>
+                                        <input id="file-upload" type="file" accept=".doc,.docx,.pdf" multiple>
+                                        <div class="file-list" id="file-list"></div>
+                                    </div>
+                            </div>
+                                
+                                
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex flex-row-reverse pt-5">
+                            <button type="submit" class="btn btn-danger">Apply Now</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+                
+            
+            
+                
+                
+            
+        </div>
+    </div>
+ </section>
+
+{{ end }}

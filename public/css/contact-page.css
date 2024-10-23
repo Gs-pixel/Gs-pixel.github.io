@@ -1,0 +1,19 @@
+.contact-page-top-icons {
+    background-color: #003354;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.contact-page-form-icons {
+    background-color: #003354; 
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .main-content {
+        text-align: center;
+    }
+    .contact-page-top-icons-div {
+        justify-content: center;
+    }
+}
